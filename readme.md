@@ -1,56 +1,103 @@
-**Privacy Policy**
+[简体中文](#only-practice-隐私政策) · [English](#only-practice-privacy-policy)
 
-Shawn built the Only Practice app as a Free app. This SERVICE is provided by Shawn at no cost and is intended for use as is.
+# Only Practice 隐私政策
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+生效日期：2026-09-22
 
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+Only Practice 由 Shawn Chen 提供，用于记录音乐练习、管理曲目、保存笔记与录音。本政策说明应用如何处理练习内容，以及用于稳定性和使用统计的技术数据。使用应用不需要注册 Only Practice 账号。
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Only Practice unless otherwise defined in this Privacy Policy.
+## 你的练习内容
 
-**Information Collection and Use**
+曲目信息、练习记录、笔记、固定状态、合集、封面配置和照片、录音保存在设备上。iCloud 可用时，应用使用 Apple 的 CloudKit 与 iCloud Drive，在你自己的 Apple 账户下保存和同步相应内容。照片封面可能保留原图及裁切信息，便于再次编辑。
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+应用不会将这些内容公开给其他用户，也没有开发者自建的练习内容上传服务器。iCloud 由 Apple 按其隐私政策及你的账户设置处理。你主动导出或分享时，内容会交给你选择的应用或接收方。
 
-**Log Data**
+## 诊断和使用统计
 
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+应用使用 Sentry，以及 Google Firebase 的 Crashlytics、Performance Monitoring 和 Analytics，帮助发现崩溃、排查卡顿、改善性能和了解功能使用情况。
 
-**Cookies**
+技术数据包括或可能包括崩溃堆栈和错误描述、应用/系统版本、设备型号、安装或设备标识、启动与页面访问、网络耗时、CPU/内存指标，以及通过 IP 推断的地区信息。地区统计可能细化到城市；应用不请求 GPS 定位权限。诊断上下文可能包括会员状态、iCloud 可用性、曲目数量及错误/文件元数据。Analytics 还会测量内购和订阅事件及商品信息。[Firebase 说明](https://firebase.google.com/docs/ios/app-store-data-collection) · [Analytics 说明](https://support.google.com/analytics/answer/10285841)
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+3.0（57）关闭了 Sentry 的错误截图、视图层级附件和默认个人信息选项，并过滤部分包含曲名、正文或路径的结构化字段。安装标识可以关联同一安装的多次事件，因此数据并非完全匿名。错误文本或文件元数据仍可能包含技术上下文。我们不主动把录音文件、封面照片或完整笔记作为诊断附件上传。[Sentry 说明](https://docs.sentry.io/platforms/apple/guides/ios/data-management/data-collected/)
 
-This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+## 服务商和数据共享
 
-**Service Providers**
+当前 Google Analytics 账号允许向 Google 共享统计数据，用于改进 Google 的产品与服务、汇总建模和技术支持；账号层面还启用了业务建议。Google 产品改进可以包括其分析和广告系统工具。本应用没有广告，当前未关联广告产品，也未启用 Google signals；没有将这些数据用于本应用的跨应用定向广告或广告归因。[Google 共享用途](https://support.google.com/analytics/answer/1011397?hl=en)
 
-I may employ third-party companies and individuals due to the following reasons:
+Sentry 使用美国数据区域。Google 等服务商也可能在你所在国家或地区以外处理数据。其处理规则参见 [Sentry 隐私政策](https://sentry.io/privacy/) 和 [Google 隐私政策](https://policies.google.com/privacy)。
 
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
+## 购买和权限
 
-I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+Apple App Store 处理购买、订阅、退款与恢复购买。应用读取权益状态以提供对应功能；我们不会获得银行卡号或 Apple 账户密码。会员状态和购买统计可能出现在前述诊断或分析数据中。
 
-**Security**
+录音需要麦克风权限；选取或保存照片使用系统选择器或相应权限；练习提醒需要通知权限。你可以在系统设置中管理权限，拒绝后相应功能可能不可用。
 
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+## 数据保留
 
-**Links to Other Sites**
+练习内容由你管理，可在应用和 iCloud 中删除。卸载应用不会自动删除 iCloud 内容、导出文件或其他备份。[Apple 隐私政策](https://www.apple.com/legal/privacy/)
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+当前 Analytics 事件级数据设置为保留 2 个月，用户级数据为 14 个月，新的活动会重置用户数据期限；汇总报告不受这些期限限制。[Analytics 保留说明](https://support.google.com/analytics/answer/7667196)
 
-**Children’s Privacy**
+Sentry 当前 Developer 计划的错误事件保留 30 天；聚合问题和备份另按服务规则处理。[Sentry 保留说明](https://www.sentry.help/en/articles/13964940-how-long-are-my-organization-s-audit-logs-stored)
 
-I do not knowingly collect personally identifiable information from children. I encourage all children to never submit any personally identifiable information through the Application and/or Services. I encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to us through the Application and/or Services, please contact us. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
+Crashlytics 的崩溃记录与相关标识保留 90 天后开始删除。Performance 与 IP 关联的事件为 30 天，与安装关联或去标识的性能数据为 60 天后开始删除；删除流程覆盖线上和备份系统，不意味着到期瞬间全部清除。[Firebase 保留说明](https://firebase.google.com/support/privacy)
 
-**Changes to This Privacy Policy**
+删除本地练习内容不会自动删除已经提交的诊断或统计记录。应用目前没有单独的诊断与统计开关。
 
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
+## 请求与联系
 
-This policy is effective as of 2024-01-27
+如需了解、访问、更正或请求删除我们处理的数据，请联系 **1004740775@qq.com**。我们会按适用要求处理，并说明能够识别的数据范围。由于应用没有 Only Practice 账号，可能需要发生时间、应用版本等信息协助定位；请勿发送 Apple 密码或不必要的私人内容。你主动联系支持时，邮件地址与所提供的内容会用于处理请求，并在处理请求所需期间保存，适用法律要求另行保留的除外。
 
-**Contact Us**
+我们可能更新本政策。正式页面会注明生效日期，数据处理方式如有变化会相应更新说明。
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at 1004740775@qq.com.
+---
+
+# Only Practice Privacy Policy
+
+Effective date: 2026-09-22
+
+Only Practice is provided by Shawn Chen to record music practice, organize pieces, and keep notes and recordings. This policy describes how the app handles your practice content and the technical data used for reliability and usage analytics. No Only Practice account is required.
+
+## Your practice content
+
+Piece information, practice records, notes, pinned status, collections, cover settings and photos, and recordings are stored on your device. When iCloud is available, the app uses Apple's CloudKit and iCloud Drive to store and synchronize relevant content under your own Apple account. Photo covers may retain the original image and crop settings for later editing.
+
+The app does not publish your content to other users. There is no developer-operated server for uploading your practice library. Apple handles iCloud under its privacy policy and your account settings. When you choose to export or share content, it is sent to the app or recipient you select.
+
+## Diagnostics and usage analytics
+
+The app uses Sentry and Google's Firebase Crashlytics, Performance Monitoring, and Analytics to identify crashes, investigate slowdowns, improve performance, and understand feature usage.
+
+Technical data includes or may include crash stacks and errors; app, system and device details; installation or device identifiers; launches and screen views; network timings; CPU and memory metrics; and approximate location derived from IP addresses. Location statistics may include cities; the app does not request GPS access. Diagnostic context may include membership status, iCloud availability, piece counts, and error or file metadata. Analytics also measures in-app purchases, subscriptions, and product details. [Firebase disclosures](https://firebase.google.com/docs/ios/app-store-data-collection) · [Analytics disclosures](https://support.google.com/analytics/answer/10285841)
+
+Version 3.0 (57) disables Sentry error screenshots, view-hierarchy attachments, and its default personal-information option. It filters selected structured fields containing piece names, content, or paths. Installation identifiers can connect multiple events from the same installation, so the data is not fully anonymous. Error text or file metadata may retain technical context. We do not deliberately attach recording files, cover photos, or complete notes to diagnostic reports. [Sentry data collection](https://docs.sentry.io/platforms/apple/guides/ios/data-management/data-collected/)
+
+## Providers and data sharing
+
+Our Google Analytics account allows analytics data to be shared with Google for its product and service improvements, aggregated modeling, and technical support. Account-level business recommendations are also enabled. Google's improvements can include its analytics and advertising system tools. The app has no ads; no advertising products are currently linked, and Google signals is disabled. We do not use this data for cross-app targeted advertising or advertising attribution for this app. [Google's sharing purposes](https://support.google.com/analytics/answer/1011397?hl=en)
+
+Sentry uses its United States data region. Google and other providers may also process data outside your country or region. See [Sentry's privacy policy](https://sentry.io/privacy/) and [Google's privacy policy](https://policies.google.com/privacy).
+
+## Purchases and permissions
+
+Apple's App Store handles purchases, subscriptions, refunds, and restoration. The app reads entitlement status to provide the relevant features. We do not receive payment-card numbers or your Apple account password. Membership status and purchase statistics may appear in the diagnostics or analytics described above.
+
+Recording requires microphone permission. Selecting or saving photos uses the system picker or applicable permissions. Practice reminders require notification permission. You can manage these permissions in system settings; denying them may limit the corresponding feature.
+
+## Retention
+
+You control your practice content and can delete it in the app and iCloud. Uninstalling the app does not automatically erase iCloud content, exports, or other backups. [Apple's privacy policy](https://www.apple.com/legal/privacy/)
+
+Analytics is currently configured to retain event-level data for 2 months and user-level data for 14 months, with new activity resetting user retention. Aggregated reports are not subject to these periods. [Analytics retention](https://support.google.com/analytics/answer/7667196)
+
+Sentry's current Developer plan retains error events for 30 days; aggregated issues and backups follow its separate service rules. [Sentry retention](https://www.sentry.help/en/articles/13964940-how-long-are-my-organization-s-audit-logs-stored)
+
+Crashlytics begins removing crash records and related identifiers after 90 days. Performance begins removing IP-associated events after 30 days, and installation-associated or de-identified performance data after 60 days. Removal covers live and backup systems and is not instantaneous at expiry. [Firebase retention](https://firebase.google.com/support/privacy)
+
+Deleting local practice content does not automatically erase diagnostics or analytics already submitted. The app currently has no separate diagnostics or analytics switch.
+
+## Requests and contact
+
+For questions or requests to access, correct, or delete data we process, contact **1004740775@qq.com**. We will handle requests under applicable requirements and explain what data we can identify. As there is no Only Practice account, the approximate time and app version may help locate relevant records. Do not send your Apple password or unnecessary private content. When you contact support, your email address and information are used to handle the request and retained for as long as needed for that purpose, unless applicable law requires otherwise.
+
+We may update this policy. The published page will state its effective date and reflect changes to our data practices.
